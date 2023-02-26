@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background: #23252C;
+}
+
+.Main{
+    background: #1A1B21;
+    margin: auto;
+    width: 317px;
+    border-radius: 10px;
+}
+
+
+/* Styling of header component --------------------*/
+
+.profile-pic{
+    width: 317px;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+.main-text{
+    padding:5px 70px 0px 70px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+.designation-text{
+    color:#F3BF99;
+    Font-family: Inter;
+    Font-size: 12.8px;
+    Line-height: 100%;
+    text-align: center; 
+}
+
+.website-url{
+    color: white;
+    Font-family: Inter;
+    Font-style: Regular;
+    Font-size: 10.24px;
+    Line-height: 15px;
+    Line-height: 150%;
+    Vertical-align: Top;    
+    text-align: center;
+}
+
+.Email{
+    width: 115px;
+    height: 30px;
+    padding: 9px, 13px, 9px, 11px;
+    Font-family: Inter;
+    Font-size: 14px;
+    Line-height: 94%;
+    border-radius: 6px;
+    Vertical-align: Top;
+    margin-right: 17px;
+}
+.LinkedIn{
+    background-color:#5093E2;
+    color: white;
+    width: 115px;
+    height: 30px;
+    border-radius: 6px;
+    Font-family: Inter;
+    Font-size: 14px;
+    Line-height: 94%;
+    Vertical-align: Top;  
+     
+}
+.linkedin-logo{
+    margin-right:4px; 
+}
+
+.buttons-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info > h1{
+    Font-family: Inter;
+    Font-style: Bold;
+    Font-size: 25px;
+    Line-height: 30px;
+    Line-height: 100%;
+    Vertical-align: Top;
+}
+
+/* ------------------------------------- */
+
+/* Styling of About component------------------- */
+
+.About-div{
+    color: white;
+    padding: 0px 36px
+}
+.about-header{
+    Font-family: Inter;
+    font-size: 19px;
+    Line-height: 24px;
+}
+.about-description{
+    Font-family: Inter;
+    Font-size: 10.24px;
+    Line-height: 150%;
+    font-weight: 400;
+}
+
+/* --------------------------------------- */
+
+/* Styling of Interests component---------------- */
+
+.footer-div{
+    background-color: #161619;
+    border-radius: 0px 0px 10px 10px;
+}
+.footer-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-list > li{
+    margin: 10px 19px
+}
+
+/* -------------------------------------------------- */
